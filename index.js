@@ -26,9 +26,7 @@ function alwaysTrue() {
  *  greet("Ian");
  *  //> "Hello, Ian."
  */
-function greet(name) {
-  return `Hello, ${name}`;
-}
+function greet(name) {}
 
 /**
  * add()
@@ -43,6 +41,4 @@ function greet(name) {
  *  add(10, 20);
  *  //> 30
  */
-function add(a, b) {
-  return a + b;
-}
+function add(a, b) {}
